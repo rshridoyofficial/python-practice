@@ -1,0 +1,20 @@
+# 2. Write a program to input eight numbers from the user and display all the unique numbers (once).
+numbers = set()
+
+print(type(numbers))
+
+number = input("Enter a number : ")
+numbers.add(number)
+number = input("Enter a number : ")
+numbers.add(number)
+number = input("Enter a number : ")
+numbers.add(number)
+number = input("Enter a number : ")
+numbers.add(number)
+number = input("Enter a number : ")
+numbers.add(number)
+number = input("Enter a number : ")
+numbers.add(number)
+number = input("Enter a number : ")
+numbers.add(number)
+print(f"The unique user number set is {numbers}")
